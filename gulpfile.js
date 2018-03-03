@@ -17,7 +17,6 @@ $.path.pathTask.forEach((taskPath) => {
 
 // Dev Build
 $.gulp.task('default', $.gulp.series(
-   'clean',
     $.gulp.parallel(
         'sass',
         'pug',
@@ -35,6 +34,7 @@ $.gulp.task('default', $.gulp.series(
 
 //Production Build
 $.gulp.task('build', $.gulp.series(
+    'clean',
     $.gulp.parallel(
         'sass',
         'pug',
