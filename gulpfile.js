@@ -1,4 +1,4 @@
-'use strict';
+'use strict';
 
 global.$ = {
 
@@ -34,7 +34,6 @@ $.gulp.task('default', $.gulp.series(
 
 //Production Build
 $.gulp.task('build', $.gulp.series(
-    'clean',
     $.gulp.parallel(
         'sass',
         'pug',
@@ -46,7 +45,3 @@ $.gulp.task('build', $.gulp.series(
         'size'
     )
 ));
-
-
-
-
