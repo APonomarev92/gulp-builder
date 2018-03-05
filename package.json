@@ -25,6 +25,7 @@
     "gulp-px-to-rem": "^1.0.4",
     "gulp-replace": "^0.6.1",
     "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
     "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-svg-sprites": "^4.1.2",

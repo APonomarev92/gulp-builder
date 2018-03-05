@@ -2,9 +2,10 @@
 
 module.exports = () => {
     $.gulp.task('sass', () => {
-        return $.gulp.src('./src/sass/main.scss')
+        return $.gulp.src('./src/sass/settings.scss')
             .pipe($.gp.plumber({errorHandler: $.gp.notify
                     .onError({title: 'Styles', message: "<%= error.message %>"})}))
+            .pipe($.gp.sassGlob())
             .pipe($.gp.sourcemaps.init())
             .pipe($.gp.sass())
             .pipe($.gp.autoprefixer({
