@@ -1,4 +1,4 @@
-'use strict';
+'use strict';
 
 global.$ = {
 
@@ -8,6 +8,7 @@ global.$ = {
 
     gulp: require('gulp'),
     gp: require('gulp-load-plugins')(),
+    fs: require('fs'),
     bs: require('browser-sync').create()
 };
 

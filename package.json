@@ -7,6 +7,7 @@
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "browser-sync": "^2.23.6",
+    "fs": "^0.0.1-security",
     "gulp": "gulpjs/gulp#4.0",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-babel": "^7.0.1",
