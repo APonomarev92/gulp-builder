@@ -23,7 +23,8 @@ $.gulp.task('default', $.gulp.series(
         'pug',
         'scripts',
         'sprite',
-        'images'
+        'images',
+        'fonts'
     ),
     $.gulp.parallel(
         'inject'
@@ -39,7 +40,8 @@ $.gulp.task('build', $.gulp.series(
         'sass',
         'pug',
         'scripts',
-        'images'
+        'images',
+        'fonts'
     ),
     $.gulp.parallel(
         'inject',

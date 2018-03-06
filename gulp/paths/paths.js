@@ -9,5 +9,6 @@ module.exports = [
     './gulp/tasks/scripts.js',
     './gulp/tasks/server-watcher.js',
     './gulp/tasks/size.js',
-    './gulp/tasks/sprite.js'
+    './gulp/tasks/sprite.js',
+    './gulp/tasks/fonts.js'
 ];

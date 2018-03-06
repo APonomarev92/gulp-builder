@@ -24,6 +24,21 @@
   }
 }
 
+//@mixin bernier($name: 'regular'){
+//
+//  @if $name == 'regular'{
+//    font-family: 'BERNIER';
+//  }
+//
+//  @if $name == 'shade'{
+//    font-family: 'BERNIER Shade';
+//  }
+//
+//  @if $name == 'distres'{
+//    font-family: 'BERNIER Distressed';
+//  }
+//}
+
 @mixin desktop (){
 
   @media screen and(max-width: 1200px) {

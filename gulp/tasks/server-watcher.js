@@ -12,5 +12,6 @@ module.exports = () => {
         $.bs.watch('./src/pug/**/*.pug').on('change', $.gulp.series('pug', 'inject'))
         $.bs.watch('./src/js/**/*.js').on('change', $.gulp.series('scripts'))
         $.bs.watch('./src/images/**/*.*').on('change', $.gulp.series('images'))
+        $.bs.watch('./src/fonts/**/*.*').on('change', $.gulp.series('fonts'))
     });
 };
